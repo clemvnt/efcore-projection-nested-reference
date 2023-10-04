@@ -6,6 +6,6 @@
 
         string? CompanyId { get; set; }
 
-        CompanyDto? Company { get; set; }
+        ICompanyDto? Company { get; set; }
     }
 }

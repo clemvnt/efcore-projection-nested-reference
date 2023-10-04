@@ -8,6 +8,6 @@
 
         string? CountryId { get; set; }
 
-        CountryDto? Country { get; set; }
+        ICountryDto? Country { get; set; }
     }
 }

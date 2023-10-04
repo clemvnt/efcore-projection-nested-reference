@@ -8,5 +8,5 @@ public class CompanyDto : ICompanyDto
 
     public string? CountryId { get; set; }
 
-    public CountryDto? Country { get; set; }
+    public ICountryDto? Country { get; set; }
 }

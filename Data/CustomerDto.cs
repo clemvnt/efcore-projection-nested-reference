@@ -6,5 +6,5 @@ public class CustomerDto : ICustomerDto
 
     public string? CompanyId { get; set; }
 
-    public CompanyDto? Company { get; set; }
+    public ICompanyDto? Company { get; set; }
 }
